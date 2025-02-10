@@ -1,0 +1,37 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 60px; /* Adjust for fixed navbar */
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+.container-fluid .row div {
+    border-radius: 10px;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .dropdown-menu {
+        text-align: center;
+    }
+}
